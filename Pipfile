@@ -7,6 +7,8 @@ name = "pypi"
 pandas = "*"
 geopy = "*"
 pydeck = "*"
+keplergl = "*"
+jupyterlab = "*"
 
 [dev-packages]
 black = "*"

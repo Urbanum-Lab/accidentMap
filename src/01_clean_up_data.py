@@ -25,7 +25,8 @@ for _, row in df.iterrows():
             time.sleep(0.05)
             street = geodata.address.split(",")[:-6]
             street = [e for e in street if not e.isnumeric()]
-            points2streets[(lat, lon)] = " ".join(street)
+            street = "".join(street)
+            points2streets[(lat, lon)] = street
         else:
             street = points2streets[(lat, lon)]
         streets.append(street)
