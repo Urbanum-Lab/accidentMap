@@ -9,6 +9,7 @@ geopy = "*"
 pydeck = "*"
 keplergl = "*"
 jupyterlab = "*"
+scikit-learn = "*"
 
 [dev-packages]
 black = "*"
